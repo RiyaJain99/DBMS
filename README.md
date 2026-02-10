@@ -1,152 +1,87 @@
-🎓 Student Management System (DBMS Project)
+# 🎓 Student Management System (DBMS Project)
 
-A full-stack Student Management System built as part of a DBMS course project, designed to manage students, courses, teachers, enrollments, departments, and classrooms efficiently using a relational database.
+A full-stack **Student Management System** developed as a **DBMS course project**, showcasing practical implementation of database concepts using a real-world application.
 
-📌 Project Overview
+---
 
-This project demonstrates the practical implementation of Database Management Systems (DBMS) concepts using a real-world application. It includes:
+## 📌 Project Overview
 
-Proper database schema design
+This project is designed to manage academic data efficiently, including students, courses, teachers, departments, classrooms, and enrollments. It demonstrates proper **database design**, **relationships**, and **CRUD operations** integrated with a working frontend and backend.
 
-CRUD operations on multiple entities
+---
 
-Relational integrity using foreign keys
+## 🛠 Tech Stack
 
-A working backend API
+### Frontend
+- React.js
+- Axios
+- React Router DOM
+- CSS (Responsive UI)
 
-A user-friendly frontend interface
+### Backend
+- Node.js
+- Express.js
+- JWT Authentication
+- bcrypt.js
 
-🛠 Tech Stack
-Frontend
+### Database
+- MySQL
+- MySQL Workbench
 
-React.js
+---
 
-Axios
+## ✨ Features
 
-React Router DOM
+### 🔐 Authentication
+- Login & Logout
+- JWT-based authentication
+- Secure password hashing
 
-CSS (Modern UI with responsive design)
+### 📚 Student Management
+- Add, view, update, delete student records
 
-Backend
+### 📘 Course Management
+- Manage course details
 
-Node.js
+### 👩‍🏫 Teacher Management
+- Add and manage teachers
 
-Express.js
+### 📝 Enrollment Management
+- Enroll students into courses
+- Maintain relational integrity
 
-JWT Authentication
+### 🏢 Department Management
+- Create and view departments
 
-bcrypt (password hashing)
+### 🏫 Classroom Management
+- Manage classrooms
 
-Database
+### 🎨 UI/UX
+- Responsive design
+- Form validation
+- Clean and simple interface
 
-MySQL (Relational Database)
+---
 
-MySQL Workbench
+## 🗂 Database Design (DBMS Concepts Used)
 
-✨ Features
-🔐 Authentication
+- Normalization
+- Primary Keys
+- Foreign Keys
+- One-to-Many & Many-to-Many Relationships
+- Referential Integrity
+- SQL (DDL & DML)
 
-User Login & Logout
+### Entities
+- Users
+- Students
+- Courses
+- Teachers
+- Enrollments
+- Departments
+- Classrooms
 
-JWT-based authentication
+---
 
-Secure password hashing
+## 📁 Project Structure
 
-📚 Student Management
-
-Add, view, update, delete students
-
-📘 Course Management
-
-Add, view, update, delete courses
-
-👩‍🏫 Teacher Management
-
-Add, view, update, delete teachers
-
-📝 Enrollment Management
-
-Enroll students into courses
-
-Maintain relational integrity
-
-🏢 Department Management
-
-Create and view departments
-
-🏫 Classroom Management
-
-Create and view classrooms
-
-🎨 UI/UX
-
-Responsive design
-
-Modal popups
-
-Form validation
-
-Hover effects and animations
-
-🗂 Database Design (DBMS Concepts Used)
-
-Normalization
-
-Primary Keys
-
-Foreign Keys
-
-One-to-Many & Many-to-Many relationships
-
-Referential Integrity
-
-SQL Queries (DDL & DML)
-
-Entities include:
-
-Users
-
-Students
-
-Courses
-
-Teachers
-
-Enrollments
-
-Departments
-
-Classrooms
-
-
-
-
-
-PROJECT STRUCTURE->
-
-student-management/
-│
-├── backend/
-│   ├── config/
-│   │   └── db.js
-│   ├── routes/
-│   │   ├── auth.js
-│   │   ├── students.js
-│   │   ├── courses.js
-│   │   ├── teachers.js
-│   │   ├── enrollments.js
-│   │   ├── departments.js
-│   │   └── classrooms.js
-│   ├── .env
-│   ├── server.js
-│   └── package.json
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── App.js
-│   │   ├── App.css
-│   │   └── index.css
-│   └── package.json
-│
-└── README.md
