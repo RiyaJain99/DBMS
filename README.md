@@ -69,3 +69,40 @@ Backend   : Node.js, Express.js
 Auth      : JWT, bcrypt.js
 Database  : MySQL, MySQL Workbench
 Tools     : VS Code
+
+
+Project Structure->
+student-management/
+├── backend/
+│   ├── src/
+│   │   ├── app.js
+│   │   ├── db/
+│   │   │   └── db.js
+│   │   └── routes/
+│   │       ├── auth.js
+│   │       ├── students.js
+│   │       ├── courses.js
+│   │       ├── teachers.js
+│   │       ├── enrollments.js
+│   │       ├── departments.js
+│   │       └── classrooms.js
+│   ├── server.js
+│   ├── package.json
+│   └── .env
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── App.js
+│   │   ├── App.css
+│   │   └── index.js
+│   ├── public/
+│   └── package.json
+│
+├── assets/
+│   └── banner.gif
+│
+├── screenshots/
+│   └── project-structure.png
+│
+└── README.md
