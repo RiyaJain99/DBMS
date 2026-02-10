@@ -82,6 +82,59 @@ This project is designed to manage academic data efficiently, including students
 - Classrooms
 
 ---
-
 ## 📁 Project Structure
+
+student-management/
+│
+├── backend/
+│   ├── src/
+│   │   ├── app.js
+│   │   ├── db/
+│   │   │   └── db.js
+│   │   └── routes/
+│   │       ├── auth.js
+│   │       ├── students.js
+│   │       ├── courses.js
+│   │       ├── teachers.js
+│   │       ├── enrollments.js
+│   │       ├── departments.js
+│   │       └── classrooms.js
+│   ├── server.js
+│   ├── package.json
+│   └── .env
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── App.js
+│   │   ├── App.css
+│   │   └── index.js
+│   ├── public/
+│   └── package.json
+│
+├── screenshots/
+│   └── project-structure.png
+│
+└── README.md
+
+---
+
+## ⚙️ Setup Instructions
+
+### 🔹 Prerequisites
+- Node.js (v18 or above)
+- MySQL (v8 or above)
+- MySQL Workbench
+- VS Code
+
+---
+
+### 🔹 Database Setup
+1. Open MySQL Workbench
+2. Create a new database
+3. Run the SQL scripts to create tables and relationships
+
+```sql
+USE student_management;
+SHOW TABLES;
 
